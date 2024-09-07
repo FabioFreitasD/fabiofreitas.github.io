@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #fff;
+    background-color: variaveis.$corDfundoDaPagina;
 }
 
 
@@ -84,7 +84,7 @@ body {
 }
 
 @mixin titles_and_numbers {
-    color: rgb(255, 106, 0);
+    color: variaveis.$corDosTextos;
 }
 
 .titles {
