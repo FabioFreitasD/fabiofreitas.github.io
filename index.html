@@ -10,25 +10,27 @@
 <body>
     <header class="header">
         <div class="container">
-            <img class="header__profile-avatar" src="./image/foto_de_capa.jpg" alt=".">
-            <h1 class="header__profile-name titles">Fabio Freitas</h1>
-            <h2 class="header__profile-username titles">@fabiofreitas</h2>
+            <img class="header__profile-avatar" id="avatar"alt=".">
+            <h1 class="header__profile-name titles" id="name"></h1>
+            <h2 class="header__profile-username titles" id="username"></h2>
             <ul class="header__numbers titles">
                 <li class="header__numbers-item titles">
                     <h4>Repositórios</h4>
-                    5
+                    <p id="repos"></p>
                 </li>
                 <li class="header__numbers-item titles">
                     <h4>Seguidores</h4>
-                    5
+                    <p id="followers"></p>
                 </li>
                 <li class="header__numbers-item titles">
                     <h4>Seguindo</h4>
-                    5
+                    <p  id="following"></p>
                 </li>
             </ul>
-            <a href="#" class="header__profile-link">Ver no Github</a>
+            <a href="#" id="link" class="header__profile-link">Ver no Github</a>
         </div>
     </header>
+
+    <script src="./src/main.js"></script>
 </body>
 </html>
